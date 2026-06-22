@@ -163,7 +163,7 @@ nav.storeClear();
 ```java
 SceneNavigator nav = SceneNavigator.builder()
     ...
-    .idleTimeout(300_000, "screensaver")   // 5 min → screensaver
+    .idleTimeout(5 * 60 * 1000, "screensaver")   // 5 minutes → screensaver
     .build();
 
 // Cancel the timer on shutdown
