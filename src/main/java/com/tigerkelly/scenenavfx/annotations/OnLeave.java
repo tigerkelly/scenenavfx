@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Marks a method to be called just before the scene is replaced by another.
  *
- * This is the annotation equivalent of {@link com.tigerkelly.scenenavfx.SceneLifecycle#onLeave()}.
+ * This is the annotation equivalent of {@link com.tigerkelly.scenenavfx.SceneLifecycle#onLeave(String)}.
  * It is called in addition to {@code onLeave()} if the controller also implements
  * {@code SceneLifecycle} — not instead of it.
  *

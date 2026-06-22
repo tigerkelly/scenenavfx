@@ -8,7 +8,7 @@ import java.lang.annotation.Target;
 /**
  * Marks a method to be called each time the scene becomes active.
  *
- * This is the annotation equivalent of {@link com.tigerkelly.scenenavfx.SceneLifecycle#onEnter()}.
+ * This is the annotation equivalent of {@link com.tigerkelly.scenenavfx.SceneLifecycle#onEnter(String)}.
  * It is called in addition to {@code onEnter()} if the controller also implements
  * {@code SceneLifecycle} — not instead of it.
  *
